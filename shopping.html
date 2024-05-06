@@ -11,16 +11,66 @@
 </head>
 
 <body>
-    <h1>Shopping Cart</h1>
+
+    <section id="shopping-cart-heading">
+        <h1>Shopping Cart</h1>
+    </section>
 
     <section id="cart-bill">
-        <!-- We will add the bill of the cart -->
+        <h2>Items in Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price (per item)</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Organic Tomatoes</td>
+                    <td>2</td>
+                    <td>$2.50</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Organic Apples</td>
+                    <td>3</td>
+                    <td>$1.75</td>
+                    <td>$5.25</td>
+                </tr>
+                <tr>
+                    <td>Organic Spinach</td>
+                    <td>1</td>
+                    <td>$3.00</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Organic Bananas</td>
+                    <td>5</td>
+                    <td>$0.75</td>
+                    <td>$3.75</td>
+                </tr>
+                <!-- Add more rows for other items -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><strong>Total</strong></td>
+                    <td><strong>$17.00</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div id="cart-actions">
+            <button class="button edit-button">EDIT CART</button>
+            <button class="button update-button">UPDATE CART</button>
+            <button class="button checkout-button">PROCEED TO CHECKOUT</button>
+        </div>
     </section>
 
     <section id="cart-action">
-        <!-- We will provided various action button -->
+        <button class="button continue-shopping-button">CONTINUE SHOPPING</button>
     </section>
 
 </body>
-
 </html>
