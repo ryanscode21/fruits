@@ -1,208 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomePage</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style.home.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.home.css" />
+  </head>
 
-<body>
+  <body>
     <header class="center">
-        <nav>
-            <div>
-                Logo
-            </div>
+      <nav>
+        <div>Logo</div>
 
-            <ui id="header-items">
-                <li class="header-item">Shop </li>
-                <li class="header-item">Receipe</li>
-                <li class="header-item">Allergies</li>
-                <li class="header-item">Contact Us</li>
-            </ui>
+        <ui id="header-items">
+          <li class="header-item">Shop</li>
+          <li class="header-item">Receipe</li>
+          <li class="header-item">Allergies</li>
+          <li class="header-item">Contact Us</li>
+        </ui>
 
-            <div>
-                <input type="text" placeholder="Search for Product" id="header-search-box">
-            </div>
-        </nav>
+        <div>
+          <input
+            type="text"
+            placeholder="Search for Product"
+            id="header-search-box"
+          />
+        </div>
+      </nav>
     </header>
 
-
     <section id="hero">
-        <div>
-            <div id="hero-one-liner">
-                Get Best<br />
-                Fresh <span class="highlight">Grocery</span>
-
-            </div>
-            <div>
-                we care for your health, buy groceries which are well processed and farm-fresh.
-            </div>
-            <button>
-                View More
-            </button>
+      <div>
+        <div id="hero-one-liner">
+          Get Best<br />
+          Fresh <span class="highlight">Grocery</span>
         </div>
         <div>
-            <img src="./images/hero.png" alt="Vegetables" id="hero-image">
+          we care for your health, buy groceries which are well processed and
+          farm-fresh.
         </div>
+        <button>View More</button>
+      </div>
+      <div>
+        <img src="./images/hero.png" alt="Vegetables" id="hero-image" />
+      </div>
     </section>
 
     <section id="features">
-        <div>
-            <div>Grocery</div>
-            <div>Fresh Grocery Delivered</div>
-        </div>
-        <div>
-            <div> Cart Value</div>
-            <div> Cart Value Review Your Cart</div>
-        </div>
-        <div>
-            <div>Fast Delivery</div>
-            <div>Within 2 - 3 hr After Ordering</div>
-        </div>
-        <div>
-            <div>Support</div>
-            <div>Concerns and Queries</div>
-        </div>
+      <div>
+        <div>Grocery</div>
+        <div>Fresh Grocery Delivered</div>
+      </div>
+      <div>
+        <div>Cart Value</div>
+        <div>Cart Value Review Your Cart</div>
+      </div>
+      <div>
+        <div>Fast Delivery</div>
+        <div>Within 2 - 3 hr After Ordering</div>
+      </div>
+      <div>
+        <div>Support</div>
+        <div>Concerns and Queries</div>
+      </div>
     </section>
     <section id="featured-product">
+      <div>
+        <h1 class="heading">Featured Product</h1>
         <div>
-
-            <h1 class="heading">Featured Product</h1>
-            <div>
-                <button id="all-products">All Products</button>
-                <button id="fruits">Fruits</button>
-                <button id="vegetables">
-                    Vegetables
-                </button>
-            </div>
+          <button id="all-products">All Products</button>
+          <button id="fruits">Fruits</button>
+          <button id="vegetables">Vegetables</button>
         </div>
+      </div>
 
-        <div id="fruits-products" class="">
-            <div class="product-item">
-                <img src="./images/fruits/one.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Apple</div>
-                    <div>5$/1 kg</div>
-                    <div>$ 1.15</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./images/fruits/two.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Carrot</div>
-                    <div>10$/ 1kg</div>
-                    <div>5$</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./images/fruits/three.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Banana</div>
-                    <div> 20$/ 1 Dozen</div>
-                    <div>15$</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./images/fruits/four.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Mango</div>
-                    <div>30$/1 kg</div>
-                    <div>24$</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
-
-
+      <div id="fruits-products" class="">
+        <div class="product-item">
+          <img
+            src="./images/fruits/one.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Apple</div>
+            <div>5$/1 kg</div>
+            <div>$ 1.15</div>
+            <button>Add to Cart</button>
+          </div>
         </div>
-        <div id="vegetables-products" class="">
-            <div class="product-item">
-                <img src="./images/vegetables/one.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Apple</div>
-                    <div>5$/1 kg</div>
-                    <div>$ 1.15</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./images/vegetables/two.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Carrot</div>
-                    <div>10$/ 1kg</div>
-                    <div>5$</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./images/vegetables/three.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Banana</div>
-                    <div> 20$/ 1 Dozen</div>
-                    <div>15$</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="./images/vegetables/four.jpg" alt="product-one" class="product-image"></img>
-                <div class="product-details">
-                    <div>Mango</div>
-                    <div>30$/1 kg</div>
-                    <div>24$</div>
-                    <button>Add to Cart</button>
-                </div>
-            </div>
-
-
-
+        <div class="product-item">
+          <img
+            src="./images/fruits/two.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Carrot</div>
+            <div>10$/ 1kg</div>
+            <div>5$</div>
+            <button>Add to Cart</button>
+          </div>
         </div>
+        <div class="product-item">
+          <img
+            src="./images/fruits/three.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Banana</div>
+            <div>20$/ 1 Dozen</div>
+            <div>15$</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./images/fruits/four.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Mango</div>
+            <div>30$/1 kg</div>
+            <div>24$</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="vegetables-products" class="">
+        <div class="product-item">
+          <img
+            src="./images/vegetables/one.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Apple</div>
+            <div>5$/1 kg</div>
+            <div>$ 1.15</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./images/vegetables/two.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Carrot</div>
+            <div>10$/ 1kg</div>
+            <div>5$</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./images/vegetables/three.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Banana</div>
+            <div>20$/ 1 Dozen</div>
+            <div>15$</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-item">
+          <img
+            src="./images/vegetables/four.jpg"
+            alt="product-one"
+            class="product-image"
+          />
+          <div class="product-details">
+            <div>Mango</div>
+            <div>30$/1 kg</div>
+            <div>24$</div>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="promotions">
-        <h1 class="heading">Promotions</h1>
-        <div>Deals</div>
+      <h1 class="heading">Promotions</h1>
+      <div>
+        <div class="promotion-cards">
+          <div>
+            <div>Black Friday Offer</div>
+            <div>Organic Foods Up To 45% Off</div>
+            <button>Shop Now</button>
+          </div>
+          <img src="images/fruits-promotion.png" alt="" />
+        </div>
+        <div class="promotion-cards">
+          <div>
+            <div>Daily Offer</div>
+            <div>Vegetables Foods Up To 65% Off</div>
+            <button>Shop Now</button>
+          </div>
+          <img src="images/vegetables-promotion.png" alt="" />
+        </div>
+      </div>
     </section>
 
-
     <section id="newsletter">
-        <h1>SUBSCRIBE TO NEWSLETTER</h1>
-        <div>
-            <input type="text" placeholder="Enter you Email Addrerss">
-            <button>SUBSCRIBE NOW</button>
-        </div>
+      <h1>SUBSCRIBE TO NEWSLETTER</h1>
+      <div>
+        <input type="text" placeholder="Enter you Email Addrerss" />
+        <button>SUBSCRIBE NOW</button>
+      </div>
     </section>
 
     <footer>
-        <div>
-            <div class="footer-item">
-                <div>Social Media Links</div>
-                <div>
-                    <p>Facebook</p>
-                    <p>Instagram</p>
-                    <p>Twitter</p>
-                    <p>Linkedin</p>
-                </div>
-            </div>
-            <div>Terms of Policy</div>
-            <div>Privacy Policy</div>
-            <div class="footer-item">
-                <div> Contact Information</div>
-                <div>
-                    <p>980000000000</p>
-                    <p>example@example.com</p>
-                </div>
-            </div>
+      <div>
+        <div class="footer-item">
+          <div>Social Media Links</div>
+          <div>
+            <p>Facebook</p>
+            <p>Instagram</p>
+            <p>Twitter</p>
+            <p>Linkedin</p>
+          </div>
         </div>
-        <div> &#169; Homepage 2024, All right reserved.</div>
+        <div>Terms of Policy</div>
+        <div>Privacy Policy</div>
+        <div class="footer-item">
+          <div>Contact Information</div>
+          <div>
+            <p>980000000000</p>
+            <p>example@example.com</p>
+          </div>
+        </div>
+      </div>
+      <div>&#169; Homepage 2024, All right reserved.</div>
     </footer>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>

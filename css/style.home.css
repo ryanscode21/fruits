@@ -182,7 +182,8 @@ nav {
 
 }
 
-#fruits-products, #vegetables-products{
+#fruits-products,
+#vegetables-products {
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -268,6 +269,61 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#promotions>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotion-cards:nth-child(1) {
+    background-color: rgb(41, 159, 82);
+}
+
+.promotion-cards:nth-child(2) {
+    background-color: rgba(251, 144, 85, 255)
+}
+
+.promotion-cards {
+    padding: 0px 20px;
+    border-radius: 10px;
+    margin-right: 50px;
+    color: white;
+    width: 35rem;
+    height: 280px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotion-cards>div {
+    font-size: 1.5rem;
+}
+
+.promotion-cards>div>div:nth-child(1) {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.promotion-cards>div>button {
+    margin-top: 1.5rem;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.promotion-cards>div>button:hover {
+    color: white;
+    background-color: black;
+}
+
+.promotion-cards>img {
+    width: 50%;
 }
 
 /* ============Newsletter Section========= */
