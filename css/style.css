@@ -13,3 +13,8 @@ body {
     font-family: "Poppins";
     background-color: rgba(128, 128, 128, 0.234);
 }
+
+
+.hidden {
+    display: none !important;
+}
