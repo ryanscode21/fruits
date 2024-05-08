@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.home.css">
+    <script src="https://kit.fontawesome.com/b613dcee4f.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header class="center">
+        <nav>
+            <div><a href="../final/binish/index.html"><img src="logo.png" alt="Company Logo"></a></div>
+
+            <ui id="header-items">
+            <li class="header-item">Shop</li>
+            <li class="header-item">Receipe</li>
+            <li class="header-item">Allergies</li>
+            <li class="header-item">Contact Us</li>
+            </ui>
+
+            <div>
+            <input
+                type="text"
+                placeholder="Search for Product"
+                id="header-search-box"
+            />
+            </div>
+        </nav>
+    </header>
+    
+    <div class="hero">
+    <form id="form">
+        
+        <div class="input-group">
+            <input type="text" id="name" required>
+            <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+        </div>
+        <div class="input-group">
+            <input type="tell" id="number" required>
+            <label for="number"><i class="fa-solid fa-address-book"></i> Personal Contact</label>
+        </div>
+        <div class="input-group">
+            <input type="text" id="email" required>
+            <label for="email"><i class="fa-solid fa-envelope"></i> Email Address</label>
+        </div>
+        <div class="input-group">
+            <textarea id="message" rows="8" required></textarea>
+            <label for="message"><i class="fa-solid fa-utensils"></i> Recipe & Attach A Picture </label>
+        </div>
+        <div class="input-group mb-3"> <label class="input-group-text" for="inputGroupFile01">=</label> <input type="file" class="form-control" id="inputGroupFile01">
+</div>
+        <button type="submit" id="submit">SUBMIT</button>
+    </form>
+</div>
+</body>
+</html>

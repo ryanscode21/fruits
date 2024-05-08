@@ -9,6 +9,14 @@ header {
     height: 8vh;
 }
 
+header img {
+    max-width: 75px; 
+    height: auto;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: -20px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -37,7 +45,7 @@ nav {
 }
 
 #header-search-box {
-    margin: 10px;
+    margin-bottom: 20px;
     padding: 8px 20px;
     border: 0;
     border-radius: 8px;
@@ -182,8 +190,8 @@ nav {
 
 }
 
-#fruits-products,
-#vegetables-products {
+.fruits-products,
+.vegetables-products {
     width: 80%;
     display: flex;
     justify-content: space-between;
